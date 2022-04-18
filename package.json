@@ -7,9 +7,10 @@
 		"shared"
 	],
 	"scripts": {
+		"ts-back": "yarn workspace @test/back ts",
 		"build-back": "yarn workspace @test/back build",
-		"build-front": "yarn workspace @test/front build",
-		"build-shared": "yarn workspace @test/shared build"
+		"build-shared": "yarn workspace @test/shared build",
+		"test-back": "yarn workspace @test/back run-test"
 	},
 	"devDependencies": {
 		"typescript": "^4.6.3"
