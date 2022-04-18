@@ -1,0 +1,17 @@
+{
+	"name": "test",
+	"private": true,
+	"workspaces": [
+		"front",
+		"back",
+		"shared"
+	],
+	"scripts": {
+		"build-back": "yarn workspace @test/back build",
+		"build-front": "yarn workspace @test/front build",
+		"build-shared": "yarn workspace @test/shared build"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.3"
+	}
+}
