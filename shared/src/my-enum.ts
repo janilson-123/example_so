@@ -1,5 +1,1 @@
-export enum MyEnum{
-	A = 1,
-	B,
-	C
-}
+export enum MyEnum{ A = 1, B, C }
